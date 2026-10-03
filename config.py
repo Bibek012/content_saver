@@ -14,7 +14,7 @@ else:
     STRING_SESSION = None
 
 # Bot token @Botfather
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8633078251:AAFSwD_uQG-7A9bT9lA6ZlMcG-1cpheFYCQ")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 # Your API ID from my.telegram.org
 API_ID = int(os.environ.get("API_ID", "39527526"))
@@ -32,7 +32,7 @@ CHANNEL_ID = os.environ.get("CHANNEL_ID", "-1003975886146")
 
 # Your Mongodb Database Url
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://bibekshaw9874_db_user:Mongo292511@cluster0.gqhn4j5.mongodb.net/") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
+DB_URI = os.environ.get("DB_URI", "") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
 DB_NAME = os.environ.get("DB_NAME", "tele_content")
 
 # Increase time as much as possible to avoid floodwait, spamming and tg account ban issues.
